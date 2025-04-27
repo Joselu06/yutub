@@ -7,9 +7,19 @@ body {
     padding: 0;
 }
 
+
+
+
+.buscador{
+   
+    height: 60px;
+    display: flex;
+}
+
 #Buscar {
-    display: block;
-    margin: 20px auto;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 30vw;
     color: grey;
     background-color: black;
     border: 1px solid rgb(56, 56, 56);
@@ -19,7 +29,20 @@ body {
     text-indent: 10px;
     font-size: 16px;
 }
+/*
+ 
+#lupa{
+       workinprogress lol
 
+}
+ /*
+.botonbusqueda{width: 70px;
+    display: flex;
+    border: 1px solid red;
+ 
+    align-items: center;
+}
+ */
 .videos {
     display: flex;
     flex-wrap: wrap;
@@ -74,3 +97,25 @@ body {
 body div {
     border: none;
 }
+
+.bloquevideo:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+    opacity: 90%;
+    animation: pop 0.2s forwards;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.90);
+  }
+  100% {
+    transform: scale(0.97);
+  }
+
+}
+
+
